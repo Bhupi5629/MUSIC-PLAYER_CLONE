@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MUSIC PLAYER</title>
+</head>
+<link rel="stylesheet" type="text/css" href="header.css">
+<link rel="stylesheet" type="text/css" href="styling.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<body>
+ <!-- navbar -->
+        <div class="navbar flex-row">
+
+            
+         	
+         <div class="flex-row ">
+         	<img src="IMAGES\logo.png">
+          <div class="logo-name flex-col">
+          	<span>Ninja</span>
+         		<span>Studio</span>
+         </div>
+        <div class="fav flex-col">
+          <span>  Favourites </span>
+         </div>
+           <div class="search-container flex-row">
+      <input type="text" placeholder="Search.." name="search">         
+      <button type="submit"><i class="fa fa-search"></i></button>
+   </div>
+   <div class="flex-col notification">
+   	
+   	 <span><i class="fa fa-bell"></i></span>
+   	
+   </div>
+         	
+        </div>
+    </div>
+      <!--   main page -->
+      <div class="flex-row outer">
+      <div class="main-pagecontent">
+       <div class="flex-row sliding">   
+       <img src="IMAGES/a.jpg"/>
+        <img src="IMAGES/b.jpg"/>
+         <img src="IMAGES/c.jpg"/>
+       </div>
+       <div class="latest">
+       <span>LATEST RELEASE<span>
+       	</div>
+       		<div class="latest-releasebox">
+       			<div class="latest-releaseboxfirst">
+       				<div class="smallbox">
+       					<div class="image_div">
+       					<img src="IMAGES\small.jpg">	
+       					</div>
+                        <div class="details">
+                        	  <div class="details_info">
+                        	<span>LATEST</span><br><br>
+	                 <span>12 June'20 </span>
+                        </div>
+                        	
+                        </div>
+
+                      <div class="dropdown">
+	                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                 </div>
+       				</div>
+       				<div class="smallbox">
+       					
+<div class="image_div">
+       					<img src="IMAGES\small.jpg">	
+       					</div>
+                        <div class="details">
+                        	  <div class="details_info">
+                        	<span>LATEST</span><br><br>
+	                 <span>12 June'20 </span>
+                        </div>
+                        	
+                        </div>
+
+                      <div class="dropdown">
+	                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                 </div>
+
+       				</div>
+
+       			</div>
+       			<div class="latest-releaseboxsecond">
+       				<div class="smallbox">
+       					<div class="image_div">
+       					<img src="IMAGES\small.jpg">	
+       					</div>
+                        <div class="details">
+                        	  <div class="details_info">
+                        	<span>LATEST</span><br><br>
+	                 <span>12 June'20 </span>
+                        </div>
+                        	
+                        </div>
+
+                      <div class="dropdown">
+	                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                 </div>
+       				</div>
+       				<div class="smallbox">
+       					<div class="image_div">
+       					<img src="IMAGES\small.jpg">	
+       					</div>
+                        <div class="details">
+                        	  <div class="details_info">
+                        	<span>LATEST</span><br><br>
+	                 <span>12 June'20 </span>
+                        </div>
+                        	
+                        </div>
+
+                      <div class="dropdown">
+	                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                 </div>
+       				</div>
+       			</div>
+              
+       		</div>
+     
+  
+      </div>
+      <!-- MY playlist queue -->
+   <!--    playlistheader -->
+      <div class="queue-list">
+      	<div class="flex-row queueHeader">
+      		 <span class="header">My Playlist</span>
+             <div class="queue_dropdown">
+                    <input type="checkbox" id="queueCheck" />
+                    <label for="queueCheck">Queue <i class="fa fa-caret-down"></i></label>
+                </div>
+
+      	</div>
+      	<div class="queue">
+      		<ul>
+      			<li>
+      				<div class="flex-row song">
+      					<div class="flex-row song_image_details">
+      						<div class="flex-c song_number">
+                                    <span>01</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="IMAGES/QUE.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                 <div class="flex-col song_details">
+                                    <span class="song_name">Memories</span>
+                                    <span class="artist_name">Maroon 5</span>
+                                </div>
+      					</div>
+      				</div>
+      			</li>
+      			<li>
+      				<div class="flex-row song">
+      					<div class="flex-row song_image_details">
+      						<div class="flex-c song_number">
+                                    <span>01</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="IMAGES/QUE.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                 <div class="flex-col song_details">
+                                    <span class="song_name">Memories</span>
+                                    <span class="artist_name">Maroon 5</span>
+                                </div>
+      					</div>
+      				</div>
+      			</li>
+      			<li>
+      				<div class="flex-row song">
+      					<div class="flex-row song_image_details">
+      						<div class="flex-c song_number">
+                                    <span>01</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="IMAGES/QUE.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                 <div class="flex-col song_details">
+                                    <span class="song_name">Memories</span>
+                                    <span class="artist_name">Maroon 5</span>
+                                </div>
+      					</div>
+      				</div>
+      			</li>
+      			<li>
+      				<div class="flex-row song">
+      					<div class="flex-row song_image_details">
+      						<div class="flex-c song_number">
+                                    <span>01</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="IMAGES/QUE.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                 <div class="flex-col song_details">
+                                    <span class="song_name">Memories</span>
+                                    <span class="artist_name">Maroon 5</span>
+                                </div>
+      					</div>
+      				</div>
+      			</li>
+      			<li>
+      				<div class="flex-row song">
+      					<div class="flex-row song_image_details">
+      						<div class="flex-c song_number">
+                                    <span>01</span>
+                                </div>
+                                <div class="song_image">
+                                    <img src="IMAGES/QUE.jpg" />
+                                    <div class="play_btn">
+                                        <span><i class="fa fa-play"></i></span>
+                                    </div>
+                                </div>
+                                 <div class="flex-col song_details">
+                                    <span class="song_name">Memories</span>
+                                    <span class="artist_name">Maroon 5</span>
+                                </div>
+      					</div>
+      				</div>
+      			</li>
+      		</ul>
+      	</div>
+      </div>
+      <!-- playlist ends -->
+  </div>
+</body>
+</html>  
